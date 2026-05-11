@@ -12,19 +12,22 @@ header {
     align-items: center;
     justify-content: space-around;
 
+    .liens {
+        a {
+            color: white;
+            text-decoration: none;
+            background-color: rgb(58, 23, 255);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin-right: 20px;
+        }
 
-    a {
-        color: white;
-        text-decoration: none;
-        background-color: rgb(58, 23, 255);
-        padding: 10px;
-        border-radius: 10px;
-        font-size: 1.1em;
-        transition: all 0.3s ease;
-    }
-
-    a:hover {
-        transform: scale(1.2, 1.2);
+        a:hover {
+            transform: scale(1.2, 1.2);
+        }
     }
 
     h1 {
